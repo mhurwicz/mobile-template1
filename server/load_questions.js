@@ -12,14 +12,14 @@ var startq = {
 var qs = [
 {
   'question': 'What was Oscar the Grouch\'s original color?',
-  'answers': ['Orange', 'Red', 'Yello'],
+  'answers': ['Orange', 'Red', 'Yellow'],
   'answer_index': 1
 }, {
   question: "Who wrote Johnny Cash's song 'A Boy Named Sue'?",
   answers: ['Rosanne Cash', 'Dolly Parton', 'Shel Silverstein'],
   answer_index: 3
 }, {
-  question: "Who died abord the plane named 'American Pie'?",
+  question: "Which of the following singers died in the plane crash memorialized in the song 'American Pie'?",
   answers: ['Don McLean', 'John Denver', 'Buddy Holly'],
   answer_index: 3
 }, {
@@ -32,7 +32,7 @@ var qs = [
   'answer_index': 3
 }, {
   question: 'Whose song was used to tune the compression algorithms for the mp3 format?',
-  answers: ['Elvis Presley', 'Susanne Vega', 'Whitney Houston'],
+  answers: ['Elvis Presley', 'Suzanne Vega', 'Whitney Houston'],
   answer_index: 2
 }, {
   question: 'Which planet has the tallest mountains?',
@@ -43,12 +43,12 @@ var qs = [
   answers: ['Poland', 'Finland', 'Ukraine'],
   answer_index: 1
 }, {
-  question: 'Which US general was driven out of the Phillipines in 1942?',
+  question: 'Which U.S. general was driven out of the Philippines in 1942?',
   answers: ['Marshall', 'MacArthur', 'Eisenhower', 'Bradley'],
   answer_index: 2
 }, {
-  question: 'Which historical figure lent his name to an XML parser?',
-  answers: ['Herodotus', 'Astylos', 'Artemis', 'Xerces'],
+  question: 'Which butterfly lent its name to an XML parser?',
+  answers: ['Monarch', 'Swallowtail', 'Artemis', 'Xerces'],
   answer_index: 4
 }, {
   question: 'Who was the shortest U.S. President?',
@@ -63,7 +63,7 @@ var qs = [
   answers: ['1925', '1940', '1958', '1967'],
   answer_index: 1
 }, {
-  question: 'Which US president attended the very first Big Game?',
+  question: 'Which U.S. president attended the very first Big Game?',
   answers: ['Woodrow Wilson', 'Franklin Roosevelt', 'John Kennedy', 'Herbert Hoover'],
   answer_index: 4
 }, {
@@ -84,7 +84,7 @@ var qs = [
   answer_index: 2
 }, {
   question: "What is an SP in Scientology?",
-  answers: ["social precom", "sound prescence", "suppressive person"],
+  answers: ["social precom", "sound presence", "suppressive person"],
   answer_index: 3
 }, {
   question: "Much of the plutonium for the first atomic bomb was produced in what state?",
